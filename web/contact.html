@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | AISphere</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div id="menu" class="uil uil-bars"></div>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="sectors.html">Industry Sectors</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="media.html">Media</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div id="theme-toggler" class="uil uil-moon"></div>
+  </header>
+
+  <!-- Page Content -->
+  <section class="contact" id="contact">
+    <h1 class="heading">Contact <span>Us</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <i class="uil uil-phone"></i>
+        <h3>Phone</h3>
+        <p>+263 78 226 3290<br>+263 77 382 6336<br>+27 62 848 5969</p>
+      </div>
+
+      <div class="box">
+        <i class="uil uil-envelopes"></i>
+        <h3>Email</h3>
+        <p>contact@aispheres.co</p>
+      </div>
+
+      <div class="box">
+        <i class="uil uil-map-marker"></i>
+        <h3>Address</h3>
+        <p>475 Maropeng Street, Magaliesburg, Krugersdorp, Gauteng, South Africa</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <form action="mailto:contact@aispheres.co" method="post" enctype="text/plain">
+        <div class="inputBox">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="8" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <iframe class="map"
+        src="https://maps.google.com/maps?q=Krugersdorp&t=&z=14&ie=UTF8&iwloc=&output=embed"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">© <span id="year"></span> <span>AISphere</span>. All rights reserved.</div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

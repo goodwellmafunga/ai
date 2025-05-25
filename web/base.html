@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div id="menu" class="uil uil-bars"></div>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="sectors.html">Industry Sectors</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="media.html">Media</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div id="theme-toggler" class="uil uil-moon"></div>
+  </header>
+
+  <!-- Page-specific content goes here -->
+  {{ content }}
+
+  <!-- Footer -->
+  <div class="footer">
+  © <span id="year"></span> <span>AISphere</span>. All rights reserved.
+</div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
